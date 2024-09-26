@@ -5,7 +5,7 @@ metadata:
   annotations:
     ingressClassName: nginx
     nginx.ingress.kubernetes.io/use-regex: 'true'
-    nginx.ingress.kubernetes.io/enable-cors: "true"
+    nginx.ingress.kubernetes.io/enable-cors: "true"   
 spec:
   rules:
     - host: posts.com
